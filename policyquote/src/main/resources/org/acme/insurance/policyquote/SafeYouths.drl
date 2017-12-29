@@ -16,7 +16,7 @@ rule "SafeYouths"
         modify(policy) {setPrice(450)};
         System.out.println("fired rule " + kcontext.getRule().getName());
 
-    end
+end
         
 
 
