@@ -4,6 +4,7 @@ import org.acme.insurance.Driver
 import org.acme.insurance.Policy
 
 rule "SafeAdults"
+    ruleflow-group "calculation"
 
     when
         //conditions
