@@ -15,4 +15,5 @@ rule "NewerVehicleSurcharge"
 		- policy type is 'AUTO'
 	then
 		Add surcharge 100 to Policy
+		logRule
 end
